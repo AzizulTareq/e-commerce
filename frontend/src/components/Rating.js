@@ -1,7 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { FaRegStar } from "react-icons/fa";
-
 
 const Rating = ({ value, text, color }) => {
     return (
