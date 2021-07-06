@@ -28,7 +28,7 @@ const HomePageCards = () => {
                 <div className="container1">
                 <img src={tshirt11} alt="Avatar" className="image1" style={{width:'100%'}} />
   <div className="middle1">
-  <Button className="text" variant="warning">BUY</Button>{' '}
+  <Button variant="warning">BUY</Button>{' '}
   </div>
   </div>
                 </Col>
@@ -37,7 +37,7 @@ const HomePageCards = () => {
                 <div className="container2">
                 <img src={tshirt1} alt="Avatar" className="image2" style={{width:'100%'}} />
   <div className="middle2">
-  <Button className="text" variant="warning">BUY</Button>{' '}
+  <Button variant="warning">BUY</Button>{' '}
   </div>
   </div>
                 </Col>
@@ -45,7 +45,7 @@ const HomePageCards = () => {
                 <div className="container3">
                 <img src={tshirt6} alt="Avatar" className="image3" style={{width:'100%'}} />
   <div className="middle3">
-  <Button className="text" variant="warning">BUY</Button>{' '}
+  <Button variant="warning">BUY</Button>{' '}
   </div>
   </div>
                 </Col>
