@@ -41,7 +41,6 @@ const HomePageCards = () => {
   </div>
   </div>
                 </Col>
-
                 <Col md={4}>
                 <div className="container3">
                 <img src={tshirt6} alt="Avatar" className="image3" style={{width:'100%'}} />
