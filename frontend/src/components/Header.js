@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { LinkContainer } from 'react-router-bootstrap'
 import { Navbar, Nav, Container, NavDropdown, Image } from 'react-bootstrap'
 import { logout } from '../actions/userActions'
-import logo from './logo.PNG'
+import logo from './images//logo.PNG'
 
 const Header = () => {
   const dispatch = useDispatch()

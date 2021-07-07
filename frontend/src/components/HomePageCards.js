@@ -1,13 +1,11 @@
 import React from 'react'
 import { Row, Col, Container, Button, Image } from 'react-bootstrap'
 import './HomePageCard.css'
-import tshirt11 from './tshirt11.jpg'
-import tshirt1 from './tshirt1.jpg'
-import tshirt6 from './tshirt6.jpg'
-import tshirtcover from './tshirtcover.PNG'
+import tshirt11 from './images/tshirt11.jpg'
+import tshirt1 from './images/tshirt1.jpg'
+import tshirt6 from './images/tshirt6.jpg'
+import tshirtcover from './images/tshirtcover.PNG'
 
-
-//PAYPAL_CLIENT_ID = AZwNIxBbnCvw4hWtzjt7G2zmGJ-R2RGXZ52GMTaEXfMy0h-hh6tXFbpDO3VzxA6D1rdi0aaZ14bbGScH
 
 const HomePageCards = () => {
     return (
