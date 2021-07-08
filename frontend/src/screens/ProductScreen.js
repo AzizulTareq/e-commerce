@@ -179,10 +179,10 @@ const ProductScreen = ({ history, match }) => {
                   </ListGroup.Item>
                 ))}
                 <ListGroup.Item>
-                  <h2>Write a Customer Review</h2>
+                  <h2>Write a Review</h2>
                   {successProductReview && (
                     <Message variant='success'>
-                      Review submitted successfully
+                      Review submitted!
                     </Message>
                   )}
                   {loadingProductReview && <Loader />}
@@ -200,7 +200,7 @@ const ProductScreen = ({ history, match }) => {
                         >
                           <option value=''>Select...</option>
                           <option value='1'>1 - Poor</option>
-                          <option value='2'>2 - Fair</option>
+                          <option value='2'>2 - Not Good</option>
                           <option value='3'>3 - Good</option>
                           <option value='4'>4 - Very Good</option>
                           <option value='5'>5 - Excellent</option>
@@ -215,13 +215,11 @@ const ProductScreen = ({ history, match }) => {
                           onChange={(e) => setComment(e.target.value)}
                         ></Form.Control>
                       </Form.Group>
-                      <Button
-                        disabled={loadingProductReview}
-                        type='submit'
-                        variant='primary'
-                      >
-                        Submit
-                      </Button>
+                   
+                      <Button variant="warning"
+                      disabled={loadingProductReview}
+                      type='submit'
+                      >Submit</Button>{' '}
                     </Form>
                   ) : (
                     <Message>

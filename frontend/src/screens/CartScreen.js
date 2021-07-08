@@ -95,14 +95,13 @@ const CartScreen = ({ match, location, history }) => {
                 .toFixed(2)}
             </ListGroup.Item>
             <ListGroup.Item>
-              <Button
-                type='button'
-                className='btn-block'
-                disabled={cartItems.length === 0}
-                onClick={checkoutHandler}
-              >
-                Proceed To Checkout
-              </Button>
+              <Button variant="warning"
+              type='button'
+              className='btn-block'
+              disabled={cartItems.length === 0}
+              onClick={checkoutHandler}
+              
+              >Proceed To Checkout</Button>{' '}
             </ListGroup.Item>
           </ListGroup>
         </Card>
