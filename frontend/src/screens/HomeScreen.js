@@ -27,7 +27,7 @@ const HomeScreen = ({ match }) => {
     <>
       <Meta />
 
-      <h1>Latest Products</h1>
+      <h2 style={{textAlign: 'center'}}>All Products</h2>
       {loading ? (
         <Loader />
       ) : error ? (

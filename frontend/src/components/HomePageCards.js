@@ -21,6 +21,7 @@ const HomePageCards = () => {
 
                 </Col>
             </Row>
+            <h2 style={{textAlign: 'center'}}>Featured Products</h2>
             <Row>
                 <Col md={4}>
                 <div className="container1">
